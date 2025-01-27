@@ -1,7 +1,17 @@
-@media screen and (max-width:600px){
+@media only screen and (max-width:600px){
         #tieu-de{
             font-size: 3rem;
         }
+        #icon {
+            height: 3vh;
+            width: 35vh;
+            border: 0.3rem groove pink;
+            margin-left: 51.75rem;
+        }
+        .fa-solid{
+            font-size: 2rem;
+        }
+        
 }
 html {
     font-size: 62.5%;
@@ -36,7 +46,6 @@ body {
     font-family: "Kablammo", serif;
     -webkit-background-clip: text;
 }
-
 #icon {
     height: 5vh;
     width: 40vh;
@@ -45,6 +54,7 @@ body {
     text-align: center;
     margin-top: 0.5rem;
     border: 0.5rem groove pink;
+    margin-left: 50rem;
     background-color: black;
     border-radius: 99.9rem;
 }
@@ -66,5 +76,5 @@ body {
     text-decoration: none;
     font-size: 1.5rem;
     color: aquamarine;
-    margin-left: 5%;
+    margin-left: 1.5rem ;
 }
