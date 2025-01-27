@@ -63,7 +63,7 @@ body {
     color: lawngreen;
 }
 .fa:visited{
-    color: coral;
+    color: azure;
 }
 #trang-chu{
     width: 100vw;
@@ -77,8 +77,8 @@ body {
 #trang-chu:active{
     color: lawngreen;
 }
-#trang-chu{
-    color: coral;
+#trang-chu:visited{
+    color: azure;
 }
 #on-tap{
     width: 100vw;
@@ -94,13 +94,13 @@ body {
     color: lawngreen;
 }
 #on-tap:visited{
-    color: coral;
+    color: azure;
 }
 
 @media only screen and (max-width:600px){
     #icon {
         height: 5%;
-        width: 70%;
+        width: 90%;
         padding-top: 3%;
         text-decoration: none;
         text-align: center;
@@ -109,6 +109,6 @@ body {
         background-color: black;
         border-radius: 99.9rem;
         box-shadow: 0rem 0rem 3rem azure;
-        margin-left: 13%;
+        margin-left: 2%;
     }
 }
