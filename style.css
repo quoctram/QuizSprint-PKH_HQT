@@ -36,7 +36,7 @@ body {
     }
 #icon {
     height: 6%;
-    width: 18%;
+    width: 17%;
     padding: 1rem;
     text-decoration: none;
     text-align: center;
@@ -45,7 +45,7 @@ body {
     background-color: black;
     border-radius: 99.9rem;
     box-shadow: 0rem 0rem 3rem azure;
-    margin-left: 39%;
+    margin-left: 40%;
 }
 .fa-solid{
     color: aqua;
@@ -80,9 +80,9 @@ body {
 
 @media only screen and (max-width:600px){
     #icon {
-        height: 3%;
-        width: 40%;
-        padding: 1rem;
+        height: 5%;
+        width: 50%;
+        padding-top: 3%;
         text-decoration: none;
         text-align: center;
         margin-top: 1.5%;
@@ -90,6 +90,6 @@ body {
         background-color: black;
         border-radius: 99.9rem;
         box-shadow: 0rem 0rem 3rem azure;
-        margin-left: 27%;
+        margin-left: 21.5%;
     }
 }
