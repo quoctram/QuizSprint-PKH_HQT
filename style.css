@@ -12,37 +12,40 @@ body {
 }
 
 #tieu-de {
-    padding-top: 0.5rem;
-    font-size: 5.5rem;
+    font-weight: bolder;
+    margin-top: 0%;
+    font-size: 550%;
     text-align: center;
     color: transparent;
-    background-color: #fa8bff;
-    background-image: -o-linear-gradient(
-    45deg,
-    #fa8bff 0%,
-    #2bd2ff 52%,
-    #2bff88 90%
-    );
-    background-image: linear-gradient(
-    45deg,
-    #fa8bff 0%,
-    #2bd2ff 52%,
-    #2bff88 90%
-    );
-    font-family: "Kablammo", serif;
+    background: linear-gradient(90deg, red, yellow, green, cyan, blue, violet);
+    background-size: 400% 400%;
+    color: transparent;
     -webkit-background-clip: text;
+    animation: colorChange 5s ease infinite;
 }
+@keyframes colorChange {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+    }
 #icon {
-    height: 5vh;
-    width: 40vh;
+    height: 6%;
+    width: 18%;
     padding: 1rem;
     text-decoration: none;
     text-align: center;
-    margin-top: 0.5rem;
-    border: 0.5rem groove pink;
-    margin-left: 50rem;
+    margin-top: 1.5%;
+    border: 1rem double greenyellow;
     background-color: black;
     border-radius: 99.9rem;
+    box-shadow: 0rem 0rem 3rem azure;
+    margin-left: 39%;
 }
 .fa-solid{
     color: aqua;
@@ -51,11 +54,18 @@ body {
     font-size: 3rem;
     margin-right: 1rem;
 }
+.fa-solid:hover{
+    color: gold;
+    font-size: 4rem;
+}
 #trang-chu{
     width: 100vw;
     text-decoration: none;
     font-size: 1.5rem;
     color: aquamarine;
+}
+#trang-chu:hover{
+    color: azure;
 }
 #on-tap{
     width: 100vw;
@@ -64,14 +74,6 @@ body {
     color: aquamarine;
     margin-left: 1.5rem ;
 }
-@media only screen and (max-width:600px){
-    #tieu-de{
-        font-size: 7rem;
-    }
-    #icon{
-        margin-top: 2rem;
-        margin-left: 13.6rem;
-        width: 25rem;
-        height: 3rem;
-    }
+#on-tap:hover{
+    color: azure;
 }
