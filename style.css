@@ -11,6 +11,7 @@ html {
 }
 #tieu-de {
     width: 100vw;
+    height: 20vh;
     padding-top: 0.5rem;
     font-size: 5vw;
     text-align: center;
