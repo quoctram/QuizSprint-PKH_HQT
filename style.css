@@ -1,19 +1,4 @@
-@media only screen and (max-width:600px){
-        #tieu-de{
-            font-size: 3rem;
-        }
-        #icon {
-            height: 3vh;
-            width: 35vh;
-            border: 0.3rem groove pink;
-            margin-left: 10rem;
-        }
-        .fa-solid{
-            font-size: 2rem;
-        }
-        
-}
-html {
+html{
     font-size: 62.5%;
 }
 body {
@@ -77,4 +62,15 @@ body {
     font-size: 1.5rem;
     color: aquamarine;
     margin-left: 1.5rem ;
+}
+@media only screen and (max-width:600px){
+    #tieu-de{
+        font-size: 7rem;
+    }
+    #icon{
+        margin-top: 2rem;
+        margin-left: 13.6rem;
+        width: 25rem;
+        height: 3rem;
+    }
 }
