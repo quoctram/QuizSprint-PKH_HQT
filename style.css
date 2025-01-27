@@ -1,3 +1,8 @@
+@media screen and (max-width:600px){
+        #tieu-de{
+            font-size: 3rem;
+        }
+}
 html {
     font-size: 62.5%;
 }
@@ -11,9 +16,8 @@ body {
 }
 
 #tieu-de {
-    width: 100vw;
     padding-top: 0.5rem;
-    font-size: clamp(1rem,100vw,5.5rem);
+    font-size: 5.5rem;
     text-align: center;
     color: transparent;
     background-color: #fa8bff;
@@ -42,6 +46,7 @@ body {
     margin-top: 0.5rem;
     border: 0.5rem groove pink;
     background-color: black;
+    border-radius: 99.9rem;
 }
 .fa-solid{
     color: aqua;
