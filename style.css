@@ -12,6 +12,7 @@ body {
 }
 
 #tieu-de {
+    font-family: "Kablammo", serif;
     font-weight: bolder;
     margin-top: 0%;
     font-size: 550%;
@@ -58,6 +59,12 @@ body {
     color: gold;
     font-size: 4rem;
 }
+.fa-solid:active{
+    color: lawngreen;
+}
+.fa:visited{
+    color: coral;
+}
 #trang-chu{
     width: 100vw;
     text-decoration: none;
@@ -67,29 +74,41 @@ body {
 #trang-chu:hover{
     color: azure;
 }
+#trang-chu:active{
+    color: lawngreen;
+}
+#trang-chu{
+    color: coral;
+}
 #on-tap{
     width: 100vw;
     text-decoration: none;
     font-size: 1.5rem;
     color: aquamarine;
-    margin-left: 1.5rem ;
+    margin-left: 10% ;
 }
 #on-tap:hover{
     color: azure;
+}
+#on-tap:active{
+    color: lawngreen;
+}
+#on-tap:visited{
+    color: coral;
 }
 
 @media only screen and (max-width:600px){
     #icon {
         height: 5%;
-        width: 50%;
+        width: 70%;
         padding-top: 3%;
         text-decoration: none;
         text-align: center;
-        margin-top: 1.5%;
+        margin-top: 2%;
         border: 1rem double greenyellow;
         background-color: black;
         border-radius: 99.9rem;
         box-shadow: 0rem 0rem 3rem azure;
-        margin-left: 21.5%;
+        margin-left: 13%;
     }
 }
