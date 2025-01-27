@@ -11,7 +11,7 @@ html {
 }
 #tieu-de {
   padding-top: 0.5rem;
-  font-size: 700%;
+  font-size: 5.5rem;
   text-align: center;
   color: transparent;
   background-color: #fa8bff;
@@ -32,16 +32,21 @@ html {
 }
 
 #icon {
-  color: red;
-  padding: 3%;
+    text-decoration: none;
+    color: red;
+    margin-top: 5%;
+    margin-left: 2%;
 }
-#trang-chu {
-  text-decoration: none;
-  color: aqua;
-  font-size: 2.5rem;
-  margin: 1rem;
+.fa-solid{
+    color: aqua;
+    width: 3rem;
+    height: 3rem;
+    font-size: 3rem;
+    margin-right: 1rem;
 }
-.fa-solid {
-  color: aqua;
-  font-size: 4rem;
+#trang-chu{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: aquamarine;
 }
+
