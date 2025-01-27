@@ -100,7 +100,7 @@ body {
 @media only screen and (max-width:600px){
     #icon {
         height: 5%;
-        width: 85%;
+        width: 75%;
         padding-top: 3%;
         text-decoration: none;
         text-align: center;
@@ -109,6 +109,6 @@ body {
         background-color: black;
         border-radius: 99.9rem;
         box-shadow: 0rem 0rem 3rem azure;
-        margin-left: 4%;
+        margin-left: 9%;
     }
 }
