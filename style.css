@@ -10,8 +10,9 @@ html {
   font-size: 62.5%;
 }
 #tieu-de {
+    width: 100vw;
   padding-top: 0.5rem;
-  font-size: 5.5rem;
+  font-size: 5.5vw;
   text-align: center;
   color: transparent;
   background-color: #fa8bff;
