@@ -218,10 +218,10 @@ body {
     }
     .fa-solid{
     color: aqua;
-    width: 5vw;
+    width: 7.5vw;
     height: 3vh;
     font-size: 3rem;
-    margin-right: 2vw;
+    margin-right: 2.5vw;
     }
     .box{
         border-radius: 99.9rem;
@@ -327,7 +327,7 @@ body {
         text-align: center;
         font-size: 150%;
         font-family:"Lobster", serif;
-        margin-top: -53vh;
+        margin-top: -53.3vh;
         margin-left: 46vw;
         
     }
