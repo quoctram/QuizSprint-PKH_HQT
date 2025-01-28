@@ -278,13 +278,14 @@ body {
         text-align: center;
         font-size: 150%;
         font-family:"Lobster", serif;
-        margin-top: 5%;
-        margin-left: 10%;
+        margin-top: 7%;
+        margin-left: -3%;
     }
     .p_0{
         user-select: none;
         border: 0.2rem solid aqua;
         margin: 2.5rem;
+        margin-left: 35%;
         border-radius: 99.9rem;
         width: 65%;
         height: 5%;
