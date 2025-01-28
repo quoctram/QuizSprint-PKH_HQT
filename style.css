@@ -272,14 +272,14 @@ body {
         box-shadow: 0rem 0rem 2rem cyan;
     }
     .box4{
-        width: 50%;
+        width: 58%;
         height: 20%;
         color: aliceblue;
         text-align: center;
         font-size: 130%;
         font-family:"Lobster", serif;
         margin-top: 5%;
-        margin-left: 15.5%;
+        margin-left: 12%;
     }
     .p_0{
         user-select: none;
@@ -313,7 +313,7 @@ body {
         border: 0.2rem solid pink;
     }
     .box5{
-        width: 50%;
+        width: 58%;
         height: 20%;
         color: aliceblue;
         text-align: center;
