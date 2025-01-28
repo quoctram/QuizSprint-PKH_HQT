@@ -259,7 +259,6 @@ body {
         margin-left: 15%;
         margin-top: 6%;
         box-shadow: 0rem 0rem 2rem cyan;
-        letter-spacing: ;
     }
     
     .box3 {
@@ -280,7 +279,7 @@ body {
         font-size: 150%;
         font-family:"Lobster", serif;
         margin-top: 5%;
-        margin-left: 12%;
+        margin-left: 10%;
     }
     .p_0{
         user-select: none;
@@ -311,7 +310,7 @@ body {
         background-color: cyan;
         color: black;
         box-shadow: 0 0 0 ;
-        border: 0.5rem solid pink;
+        border: 0.2rem solid pink;
     }
     .box5{
         width: 58%;
@@ -320,7 +319,7 @@ body {
         text-align: center;
         font-size: 150%;
         font-family:"Lobster", serif;
-        margin-top: -37%;
+        margin-top: -37.5%;
         margin-left: 50%;
     }
     
