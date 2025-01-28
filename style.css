@@ -279,17 +279,17 @@ body {
         font-size: 150%;
         font-family:"Lobster", serif;
         margin-top: 5%;
-        margin-left: 12%;
+        margin-left: 10%;
     }
     .p_0{
         user-select: none;
         border: 0.2rem solid aqua;
         margin: 2.5rem;
         border-radius: 99.9rem;
-        width: 55%;
+        width: 65%;
         height: 5%;
         padding-top: 1rem;
-        box-shadow: 2rem 0rem 2rem silver;
+        box-shadow: -2rem 0rem 2rem silver;
     }
     .p_0:hover{
         background-color: pink;
@@ -301,7 +301,7 @@ body {
         border: 0.2rem solid aqua;
         margin: 2.5rem;
         border-radius: 99.9rem;
-        width: 55%;
+        width: 65%;
         height: 5%;
         padding-top: 1rem;
         box-shadow: 2rem 0rem 2rem silver;
@@ -320,7 +320,7 @@ body {
         font-size: 150%;
         font-family:"Lobster", serif;
         margin-top: -89%;
-        margin-left: 49%;
+        margin-left: 47%;
         
     }
     
