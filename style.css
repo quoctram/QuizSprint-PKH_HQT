@@ -202,7 +202,50 @@ body {
     margin-top: -44vh;
     margin-left: 70vw;
 }
+.clock {
+    display: ;
+    background: black;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0rem 0rem 2rem red;
+    text-align: center;
+    width: 18rem;
+    height: 8rem;
+    margin-top: -60vh;
+    margin-left: 13vw;
+}
+.time {
+    font-size: 4rem;
+    font-weight: bold;
+    color: aliceblue;
+}
+.date {
+    font-size: 2.4rem;
+    margin-top: 10px;
+    color: aquamarine;
+}
 @media only screen and (max-width:600px){
+    .clock {
+        background: black;
+        padding: 1rem;
+        border-radius: 12px;
+        box-shadow: 0rem 0rem 2rem red;
+        text-align: center;
+        width: 6rem;
+        height: 3rem;
+        margin-top: -77vh;
+        margin-left: 40vw;
+    }
+    .time {
+        font-size: 1rem;
+        font-weight: bold;
+        color: aliceblue;
+    }
+    .date {
+        font-size: 0.6rem;
+        margin-top: 10px;
+        color: aquamarine;
+    }
     #icon {
         height: 5vh;
         width: 75vw;
@@ -214,7 +257,7 @@ body {
         background-color: black;
         border-radius: 99.9rem;
         box-shadow: 0rem 0rem 3rem azure;
-        margin-left: 8.5vw;
+        margin-left: 8vw;
     }
     .fa-solid{
     color: aqua;
