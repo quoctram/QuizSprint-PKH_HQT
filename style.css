@@ -229,12 +229,12 @@ body {
         background: black;
         padding: 1rem;
         border-radius: 12px;
-        box-shadow: 0rem 0rem 2rem red;
+        box-shadow: 0rem 0rem 2rem magenta;
         text-align: center;
         width: 6rem;
         height: 2.5rem;
         border-radius: 10rem;
-        margin-top: -88.3vh;
+        margin-top: -86.15vh;
         margin-left: 12vw;
     }
     .time {
@@ -265,7 +265,7 @@ body {
         text-decoration: none;
         font-size: 1.5rem;
         color: aquamarine;
-        margin-right: -2vw;
+        margin-right: -5.6vw;
         
     }
     #on-tap{
