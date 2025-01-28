@@ -204,8 +204,8 @@ body {
 }
 @media only screen and (max-width:600px){
     #icon {
-        height: 5%;
-        width: 75%;
+        height: 5vh;
+        width: 75vw;
         padding-top: 3%;
         text-decoration: none;
         text-align: center;
@@ -214,12 +214,19 @@ body {
         background-color: black;
         border-radius: 99.9rem;
         box-shadow: 0rem 0rem 3rem azure;
-        margin-left: 8.5%;
+        margin-left: 8.5vw;
+    }
+    .fa-solid{
+    color: aqua;
+    width: 5vw;
+    height: 3vh;
+    font-size: 3rem;
+    margin-right: 2vw;
     }
     .box{
         border-radius: 99.9rem;
-        width: 20%;
-        height: 20%;
+        width: 20vw;
+        height: 20vh;
         background-color: black;
         color: snow;
         /* border: 0.2rem groove white; */
@@ -320,8 +327,8 @@ body {
         text-align: center;
         font-size: 150%;
         font-family:"Lobster", serif;
-        margin-top: -52.2vh;
-        margin-left: 48vw;
+        margin-top: -53vh;
+        margin-left: 46vw;
         
     }
     
