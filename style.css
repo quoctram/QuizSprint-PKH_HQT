@@ -109,7 +109,7 @@ body {
     color: snow;
     /* border: 0.2rem groove white; */
     text-align: center;
-    font-family: "Moo Lah Lah", serif;
+    font-family: "Lobster", serif;
     font-size: 420%;
     user-select: none;
     color: transparent;
@@ -150,6 +150,55 @@ body {
 .box1_1{
     display: none;
 }
+.box4{
+    width: 30%;
+    height: 40%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 250%;
+    font-family:"Lobster", serif;
+    margin-top: -27%;
+    margin-left: 10%;
+}
+.p_0{
+    border: 0.5rem solid aqua;
+    margin: 2rem;
+    border-radius: 99.9rem;
+    width: 50%;
+    height: 15%;
+    padding-top: 1rem;
+    box-shadow: -1rem 0rem 2rem silver;
+}
+.p_0:hover{
+    background-color: pink;
+    color: black;
+    box-shadow: 0 0 0 ;
+}
+.p_1{
+    border: 0.5rem solid aqua;
+    margin: 2rem;
+    border-radius: 99.9rem;
+    width: 50%;
+    height: 15%;
+    padding-top: 1rem;
+    box-shadow: 2rem 0rem 2rem silver;
+}
+.p_1:hover{
+    background-color: cyan;
+    color: black;
+    box-shadow: 0 0 0 ;
+    border: 0.5rem solid pink;
+}
+.box5{
+    width: 30%;
+    height: 40%;
+    color: aliceblue;
+    text-align: center;
+    font-size: 250%;
+    font-family:"Lobster", serif;
+    margin-top: -20%;
+    margin-left: 71%;
+}
 @media only screen and (max-width:600px){
     #icon {
         height: 5%;
@@ -172,7 +221,7 @@ body {
         color: snow;
         /* border: 0.2rem groove white; */
         text-align: center;
-        font-family: "Moo Lah Lah", serif;
+        font-family: "Lobster", serif;
         font-size: 200%;
         user-select: none;
 
@@ -199,6 +248,7 @@ body {
         margin-left: 15%;
         margin-top: 6%;
         box-shadow: 0rem 0rem 2rem cyan;
+        letter-spacing: ;
     }
     
     .box3 {
@@ -209,6 +259,55 @@ body {
         margin-left: 50%;
         margin-top: -10%;
         box-shadow: 0rem 0rem 2rem cyan;
+    }
+    .box4{
+        width: 40%;
+        height: 20%;
+        color: aliceblue;
+        text-align: center;
+        font-size: 150%;
+        font-family:"Lobster", serif;
+        margin-top: 5%;
+        margin-left: 13%;
+    }
+    .p_0{
+        border: 0.5rem solid aqua;
+        margin: 2rem;
+        border-radius: 99.9rem;
+        width: 50%;
+        height: 15%;
+        padding-top: 1rem;
+        box-shadow: -1rem 0rem 2rem silver;
+    }
+    .p_0:hover{
+        background-color: pink;
+        color: black;
+        box-shadow: 0 0 0 ;
+    }
+    .p_1{
+        border: 0.5rem solid aqua;
+        margin: 2rem;
+        border-radius: 99.9rem;
+        width: 50%;
+        height: 15%;
+        padding-top: 1rem;
+        box-shadow: 2rem 0rem 2rem silver;
+    }
+    .p_1:hover{
+        background-color: cyan;
+        color: black;
+        box-shadow: 0 0 0 ;
+        border: 0.5rem solid pink;
+    }
+    .box5{
+        width: 40%;
+        height: 20%;
+        color: aliceblue;
+        text-align: center;
+        font-size: 150%;
+        font-family:"Lobster", serif;
+        margin-top: -37%;
+        margin-left: 57%;
     }
     
 }
