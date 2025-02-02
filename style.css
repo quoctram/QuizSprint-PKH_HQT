@@ -10,7 +10,15 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
-
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Đảm bảo video phủ kín nền */
+    z-index: -1; /* Đặt video ở phía sau */
+}
 #tieu-de {
     user-select: none;
     font-family: "Kablammo", serif;
